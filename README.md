@@ -1,6 +1,11 @@
 # AlguiPlus 安卓悬浮窗UI库
 
-[![效果图](https://github.com/chunjie008/AlguiPlus/blob/main/plus.png?raw=true)](https://github.com/chunjie008/AlguiPlus)
+[![效果图](https://github.com/chunjie008/AlguiPlus/blob/main/showImg/1.png?raw=true)](https://github.com/chunjie008/AlguiPlus)
+
+[![效果图](https://github.com/chunjie008/AlguiPlus/blob/main/showImg/2.png?raw=true)](https://github.com/chunjie008/AlguiPlus)
+
+[![效果图](https://github.com/chunjie008/AlguiPlus/blob/main/showImg/3.png?raw=true)](https://github.com/chunjie008/AlguiPlus)
+
 
 AlguiPlus是一款安卓悬浮窗UI库，主要用于快速开发悬浮窗应用。提供完整的悬浮窗组件，包括可拖拽拉伸的悬浮窗口、菜单、按钮等。支持自定义UI样式和交互行为。
 
