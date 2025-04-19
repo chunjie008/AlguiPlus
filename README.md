@@ -1,3 +1,28 @@
+
+介绍
+AlguiPlus是一款安卓悬浮窗UI库，主要用于快速开发悬浮窗应用。它提供了一套完整的悬浮窗UI组件，包括可拖拽拉伸的悬浮窗口、菜单、按钮等。 同时还支持自定义UI样式和交互行为，方便开发者根据自己的需求进行定制。 该UI库具有以下特点：
+
+1.简单易用：使用该UI库可以轻松实现悬浮窗功能，无需复杂的代码。
+
+2.高度可定制化：支持自定义UI样式和交互行为，方便开发者根据自己的需求进行定制。
+
+3.轻量级和高效性能：该UI库采用了优化的设计和算法，保证了悬浮窗的高效率和流畅性。它具有较低的资源消耗，不会对手机的性能造成明显影响。
+
+4.完善的文档和示例：该UI库提供了详细的文档和示例代码，帮助开发者快速上手和理解各个组件的使用方法。文档中包含了清晰的API说明和使用示例，有助于加速开发进程。
+
+如果你是安卓开发者，需要开发悬浮窗应用，或开发调试菜单，那么Algui将会是一个非常好的选择！
+
+
+本项目使用微验卡密 ，微验官网：https://llua.cn/
+启动需要修改的地方：
+AlguiNetworkVerification 类下面：
+    private final String appID="";//应用ID 按照要求修改
+    private final String VersionNo="1.0";//应用版本号(用于更新)
+    private final String appKey="";//APPkey密钥  按照要求修改
+    private final String rc4_2 = "";//RC4-2密钥 按照要求修改
+
+
+
 本项目修改自 algui 项目，主要修改了以下内容：
 1. 适配了android studio
 2. 将轻量版和完整版版融合
@@ -11,6 +36,11 @@
 作者qq：854978821
 作者b站账号：https://space.bilibili.com/31700908?spm_id_from=333.1007.0.0
 作者常驻qq群：932860431
+作者个人网站：https://858856.xyz/
 
 原作者项目链接：
 https://gitee.com/ByteAL/ALGUI
+
+效果图：
+![效果图]
+(https://github.com/chunjie008/AlguiPlus/blob/main/plus.png?raw=true)
