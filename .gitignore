@@ -1,0 +1,12 @@
+# 默认忽略的目录
+.gradle/
+.idea/
+
+# 忽略指定文件
+/shelf/
+/workspace.xml
+
+# 忽略特定类型文件
+*.apk
+*.aab
+*.keystore

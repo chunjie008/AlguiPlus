@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:gravity="center">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="第一次启动请点击[申请悬浮窗权限]选择BLAOCK DOG应用开启权限，然后点击[申请通知权限]点允许，然后点击[申请通知权限]点允许，最后点击[关闭省电模式]开启应用"
+		android:textColor="#FF0000"
+		android:textSize="16sp"
+		android:layout_margin="16dp"
+		android:gravity="center"/>
+
+	<Button
+		android:id="@+id/btn_window_permission"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="申请悬浮窗权限"
+		android:layout_margin="8dp"/>
+
+	<Button
+		android:id="@+id/btn_notification_permission"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="申请通知权限 为了悬浮窗不被系统杀死"
+		android:layout_margin="8dp"/>
+
+	<Button
+		android:id="@+id/btn_background_permission"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="关闭省电模式 为了悬浮窗不被系统杀死"
+		android:layout_margin="8dp"/>
+
+	<Button
+		android:id="@+id/btn_open_window"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="开启悬浮窗"
+		android:layout_margin="8dp"/>
+
+	<Button
+		android:id="@+id/btn_close_window"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="彻底关闭"
+		android:layout_margin="8dp"/>
+
+</LinearLayout>
+
